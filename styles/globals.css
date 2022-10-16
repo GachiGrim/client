@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'HancomUljuBangudae';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205-2@1.0/HancomUljuBangudae.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -19,14 +26,5 @@ a {
 
 * {
   box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+  font-family: 'HancomUljuBangudae';
 }
